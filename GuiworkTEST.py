@@ -9,4 +9,4 @@ master = Tk()
 b = Button(master, text = "derp", command=jump)
 b.place(relx=0.5, rely = 0.5, anchor=CENTER)
 
-mainloop()
+mainloop()  # keeps running
