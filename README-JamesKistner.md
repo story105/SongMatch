@@ -1,8 +1,8 @@
 James Kistner
-CPSC 353 Submission #2
+CPSC 353 Submission #3
 Dr. Fahy
-14 April 2019
+28 April 2019
 
-For the second submission of our group project I worked on the website. I created index and style pages with search functionality.
+For the second submission I updated the index.html file to display videos from Youtube. As of submitting this I do not know our Youtube API key, so hopefully I will recieve that from one of my group members to test out the code. The feature is pretty easy to use. Just like a normal search bar, you input the videos you want to see with a keyword, and videos matching that keyword are displayed.
 
-For the third submission I will again be working on the website. This time I plan to integrate the search functionality with the music streaming applications on the website.
+
