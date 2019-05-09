@@ -9,13 +9,14 @@
 <body>
 <h1 class="title">SongMatch™</h1>
 <div class="search-box">
-	<input class="search-txt" type="text" name="" placeholder="Search for a song...">
-	<a onclick="keyWordsearch()" class="search-btn" href="#">
+	<input class="search-txt" type="text" name="" placeholder="Search for a song..." onclick="keyWordsearch()">
+	<a class="search-btn" href="#" >
 	<i class="fas fa-search"></i>
-
+<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady">
+</script>
 <script>
- function keyWordsearch(){
-    gapi.client.setApiKey('AIzaSyCsw0andhKyzcFIBEta3Hfu5DFHt_BBgE8');
+function keyWordsearch(){
+    gapi.client.setApiKey('AIzaSyBVRal8fMBb4WUp6XtKcJy5l5seVHD3xWc');
     gapi.client.load('youtube', 'v3', function(){
             makeRequest();
     });
@@ -40,7 +41,6 @@ function makeRequest(){
   })  
 }
 </script> 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script src="https://apis.google.com/js/client.js?onload=googleApiClientReady">   </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 </body>
 </html>
