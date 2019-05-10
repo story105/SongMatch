@@ -1,8 +1,9 @@
 Ryan Kassab
-CPSC 353 Submission # 3
+CPSC 353 Submission # 4
 Dr. Fahy
-28 April 2019
+9 May 2019
 
-For the third submission I worked on trying to get the spotify API working better. I was able to find and implement authorization code that would allow us to use the API for our project. I began to implement the search and playlist functionality of the program. They are both not done mainly because my JavaScript knowledge is minimal at best, but I did write the GET message for the search so once we implement it into the website it should work better. For the playlist functionality, the authorization for the user documentation hasn't been the best as far as I found, so I began to write the code that I would think would be write. However because of that its not done.
-
-For the last submission, I will be working on the Spotify API and getting that up and running better and hopefully for good. 
+For the last submission, I worked on obtaining and/or writing all the functions necessary for using the Spotify API. Most of the functions I did not write myself;
+however, all the functions attach to the Spotify API and then preform searches as well as adding to the playlist if implemented correctly. The functions only are
+able to search for artists and songs, but that information should be enough to get the output that we wanted. If I were able to better understand how JavaScript
+really works and functions I think I would better able to implement into the program we had in mind.
