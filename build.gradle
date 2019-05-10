@@ -1,0 +1,24 @@
+// This is to run in a working directory the youtube API
+// Before you compile, enter these in \songmatch dir
+/* 
+* gradle init --type basic
+* mkdir -p src/main/java src/main/resources
+*/
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'ApiExample'  // this changes based on what we want to name MAIN func
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    API_SPECIFIC_DEPENDENCY
+}
