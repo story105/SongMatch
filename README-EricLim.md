@@ -19,3 +19,8 @@ For the third submission I will be working more on the analysis and song match a
 For this third submission, I worked on the project submission report. I looked through everyone's contributions and attempted to figure out shortcomings and features that we successfully worked on.
 
 We are still in the process of song-search and a full API implementation, so my proposed analysis feature is postponed. 
+
+### Final Submission
+9 May 2019
+
+For the final submisison, I looked into converting a spotify search into a youtube search. There was no separate Youtube Music API so I had to use Relevance search with "title + artist name". It's quite a simple conversion code, but none of the other API features were implemented due to technical difficulties. 
